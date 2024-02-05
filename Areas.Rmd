@@ -8,21 +8,11 @@ date: "2024-02-05"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-Area de un círculo
+# Área de círculo
 
 ```{r}
 r<- 0.5
-Areas <- pi*r^2
+Area<- pi*r^2
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
